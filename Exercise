@@ -1,0 +1,29 @@
+Python Coding exercise
+tags: hiring python
+The goal of this exercise is to provide a basis for further discussion and investigate the candidate’s approach to common problems.
+There aren’t entirely wrong or correct answers.
+
+We estimate the base exercise will take approximately 4 hours.
+If it takes you more, feel free to stop.
+
+You cannot use AI assistants such as ChatGPT or Copilot.
+
+Thanks!
+
+Exercise
+Given a repo, visualize the graph of git commits fetched through the GitHub API:
+
+Fetch the default branch
+Fetch the whole history (or a part of it)
+Build the commit graph (each commit has zero or more parents)
+Verify that the commit graph is acyclic
+Print the graph in a text file with the Graphviz’s Dot Language
+Rules
+You have to use Python>=3.7
+All functions/classes/etc. must be properly type annotated
+You should use the GitHub’s GraphQL API. The suggested Python library for GraphQL is gql (but you can use another one if you prefer). As a fallback you can use GitHub REST API instead.
+The use of external libraries for verifying that the graph is acyclic are not allowed.
+Extra points
+Write a small test suite
+Support authentication for GitHub APIs
+Generate an image for the .dot file generated from the graph
